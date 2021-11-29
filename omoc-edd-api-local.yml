@@ -1,0 +1,22 @@
+spring:
+  redis:
+    port: 6379
+    host: localhost
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+edd:
+  tenantId: us-44240f83
+  clientId: xtQOqKSuLlcvLZ13VDP79zrrLlFF8TV4
+  clientSecret: gaWwk8ZG983kkZV9u7XY1E10858FpPN1
+  redis:
+    tablenames:
+      distributionGroup: DistributionGroup
+      sourcingDetails: SourcingDetails
+      transitTimeExpress: TransitTimeExpress
+      transitTimeStandard: TransitTimeStandard
+      nodeDetails : NodeDetails
+      proximity: Proximity
+      weightage: Weightage
+      parameters: Parameters
+

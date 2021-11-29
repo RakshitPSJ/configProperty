@@ -1,0 +1,21 @@
+spring:
+  redis:
+    port: 6379
+    host: hbc-edd-redis-prod.iq4mh5.0001.use1.cache.amazonaws.com
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+edd:
+  tenantId: us-e183b9c6
+  clientId: hvgFoCY4KIwxqo5h0BtBIEs32ZlO4uvl
+  clientSecret: Igf7ii33PJFD7CQ8eEUQ5LE8CqbKH11k
+  redis:
+    tablenames:
+      distributionGroup: DistributionGroup
+      sourcingDetails: SourcingDetails
+      transitTimeExpress: TransitTimeExpress
+      transitTimeStandard: TransitTimeStandard
+      nodeDetails : NodeDetails
+      proximity: Proximity
+      weightage: Weightage
+      parameters: Parameters
